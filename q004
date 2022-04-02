@@ -1,0 +1,21 @@
+#include<iostream>
+using namepsace std;
+
+class Men{
+private:
+  string name;
+public:
+Men(string Men):name(Men){};
+  string SetName(){
+    return name;
+  }
+  void getname(string name){
+    this->name=name;
+  }
+}
+
+int main(){
+  Men a;
+  a.getname("Danil004")
+  return 0;
+}
